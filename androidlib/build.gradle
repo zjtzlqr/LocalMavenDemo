@@ -27,9 +27,10 @@ dependencies {
 
 uploadArchives{
     repositories.mavenDeployer{
-        repository(url:LOCAL_REPO_URL)
-        pom.groupId = GROUP_ID
-        pom.artifactId = ARTIFACTID
-        pom.version = LIBRARY_VERSION
+        //(url:"file://D://Users/user2/.m2/repository/")
+        repository(url: "file://C://Users/.m2/repository/")
+        pom.groupId = "com.kcode.github.pubutils"
+        pom.artifactId = "androidLib"
+        pom.version = "0.0.2"
     }
 }

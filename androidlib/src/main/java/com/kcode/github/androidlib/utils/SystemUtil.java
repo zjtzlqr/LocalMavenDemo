@@ -6,6 +6,7 @@ import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
+import android.util.Log;
 
 import java.util.UUID;
 
@@ -74,5 +75,11 @@ public class SystemUtil {
         }
 
         return macAddress;
+    }
+
+    public static String Test()
+    {
+        Log.e("1990", "gggggg");
+        return "Test";
     }
 }
